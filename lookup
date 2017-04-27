@@ -1,0 +1,2 @@
+#!/bin/bash
+cat spells_wizard.json | jid | jq -r .desc
